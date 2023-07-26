@@ -36,8 +36,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL (not yet): [Add solution URL here](https://your-solution-url.com)
-- Live Site URL (not yet): [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL repo](https://github.com/Lequral/Manage-Landing-Page)
+- [Live Site URL](https://lequral.github.io/Manage-Landing-Page/)
+- [Frontend Mentor Solution]()
 
 ## My process
 
