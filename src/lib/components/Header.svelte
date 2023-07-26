@@ -33,11 +33,11 @@
   </button>
 
   <menu class:mobile-hidden={hidden}>
-    <li><a href="./">Pricing</a></li>
-    <li><a href="./">Product</a></li>
-    <li><a href="./">About Us</a></li>
-    <li><a href="./">Careers</a></li>
-    <li><a href="./">Community</a></li>
+    <li><a href="{base}/">Pricing</a></li>
+    <li><a href="{base}/">Product</a></li>
+    <li><a href="{base}/">About Us</a></li>
+    <li><a href="{base}/">Careers</a></li>
+    <li><a href="{base}/">Community</a></li>
   </menu>
 
   <button name="Get started" class="get-started">Get Started</button>

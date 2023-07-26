@@ -1,7 +1,7 @@
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/kit/vite";
 
-const dev = process.argv.includes("dev");
+const githubPages = !process.argv.includes("dev") && !process.argv.includes("preview");
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,7 +14,7 @@ const config = {
     },
     adapter: adapter(),
     paths: {
-      base: dev ? "" : "/Manage-Landing-Page",
+      base: githubPages ? "/Manage-Landing-Page" : "",
     },
   },
 };

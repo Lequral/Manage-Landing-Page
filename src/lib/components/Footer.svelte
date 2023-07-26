@@ -14,25 +14,25 @@
       <img src={logoManager} alt="manager logo" />
 
       <div class="socials">
-        <a href="/"><img src={facebook} alt="facebook logo" /></a>
-        <a href="/"><img src={youtube} alt="youtube logo" /></a>
-        <a href="/"><img src={twitter} alt="twitter logo" /></a>
-        <a href="/"><img src={pinterest} alt="pinterest logo" /></a>
-        <a href="/"><img src={instagram} alt="instagram logo" /></a>
+        <a href="{base}/"><img src={facebook} alt="facebook logo" /></a>
+        <a href="{base}/"><img src={youtube} alt="youtube logo" /></a>
+        <a href="{base}/"><img src={twitter} alt="twitter logo" /></a>
+        <a href="{base}/"><img src={pinterest} alt="pinterest logo" /></a>
+        <a href="{base}/"><img src={instagram} alt="instagram logo" /></a>
       </div>
     </div>
 
     <div class="links">
       <div class="navigation">
-        <a href="/">Home</a>
-        <a href="/">Pricing</a>
-        <a href="/">Products</a>
-        <a href="/">About Us</a>
+        <a href="{base}/">Home</a>
+        <a href="{base}/">Pricing</a>
+        <a href="{base}/">Products</a>
+        <a href="{base}/">About Us</a>
       </div>
       <div class="company">
-        <a href="/">Careers</a>
-        <a href="/">Community</a>
-        <a href="/">Privacy Policy</a>
+        <a href="{base}/">Careers</a>
+        <a href="{base}/">Community</a>
+        <a href="{base}/">Privacy Policy</a>
       </div>
     </div>
 
