@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { base } from "$app/paths";
+
   import logo from "@assets/logo-header.svg";
   import hamburger from "@assets/icon-hamburger.svg";
   import close from "@assets/icon-close.svg";
@@ -42,7 +44,6 @@
 
   <button name="Get started" class="get-started">Get Started</button>
 </header>
-
 
 <style lang="scss">
   .container {

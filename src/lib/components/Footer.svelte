@@ -1,4 +1,6 @@
 <script>
+  import {base} from "$app/paths";
+
   import logoManager from "@assets/logo-footer.svg";
 
   import facebook from "@assets/icon-facebook.svg";

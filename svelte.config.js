@@ -1,7 +1,8 @@
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/kit/vite";
 
-const githubPages = !process.argv.includes("dev") && !process.argv.includes("preview");
+const githubPages =
+  !process.argv.includes("dev") && !process.argv.includes("preview");
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,6 +17,9 @@ const config = {
     paths: {
       base: githubPages ? "/Manage-Landing-Page" : "",
     },
+  },
+  prerender: {
+    handleHttpError: "warn",
   },
 };
 
