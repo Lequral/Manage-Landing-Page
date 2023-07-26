@@ -17,10 +17,7 @@ const config = {
     paths: {
       base: githubPages ? "/Manage-Landing-Page" : "",
     },
-  },
-  prerender: {
-    handleHttpError: "warn",
-  },
+  }
 };
 
 export default config;
