@@ -119,7 +119,7 @@
         display: flex;
         justify-content: space-between;
         width: 24vw;
-        margin-right: 3vw;
+        margin-right: 2vw;
 
         > div {
           display: flex;

@@ -91,8 +91,6 @@
       margin-top: 8vh;
 
       .text-container {
-        
-
         p {
           width: auto;
           margin: 15px 0 30px 0;
@@ -116,6 +114,7 @@
 
         p {
           margin-left: 0;
+          width: 36ch;
         }
       }
 

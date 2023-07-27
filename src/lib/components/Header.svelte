@@ -23,9 +23,9 @@
   }
 </script>
 
-<div class="curtain" class:mobile-hidden={hidden}></div>
 
 <header class="container">
+  <div class="curtain" class:mobile-hidden={hidden}></div>
   <div id="logo">
     <img src={logo} alt="Manage Logo" />
   </div>

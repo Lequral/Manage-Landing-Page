@@ -5,6 +5,7 @@
   import ali from "@assets/avatar-ali.png";
   import richard from "@assets/avatar-richard.png";
   import shanai from "@assets/avatar-shanai.png";
+  import { onMount } from "svelte";
 
   function scrollTo(newStep: number) {
     var stepProgress = document.querySelector("div.step-progress");
@@ -24,6 +25,16 @@
       block: "nearest",
     });
   }
+  onMount(() => {
+    var slider = document.querySelector("ul.reviews");
+    if (window.innerWidth > 1100) {
+      if (slider != null) {
+        slider.scrollBy(0.11 * window.innerWidth, 0);
+      }
+    } else if (slider != null) {
+      scrollTo(1)
+    }
+  });
 </script>
 
 <section>
@@ -138,7 +149,8 @@
       li {
         overflow: visible;
 
-        h4, p {
+        h4,
+        p {
           position: relative;
           top: -1rem;
         }
@@ -165,6 +177,9 @@
   }
 
   @media screen and (max-width: 1100px) {
+    section p {
+      width: 31ch;
+    }
     ul {
       overflow-x: hidden !important;
       scroll-snap-type: x mandatory;
