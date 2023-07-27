@@ -6,12 +6,15 @@
   import Presentation from "$lib/components/Presentation.svelte";
   import Reviews from "$lib/components/Reviews.svelte";
 </script>
+
 <svelte:head>
   <title>Lequral's Manage Landing Page</title>
 </svelte:head>
 <Header />
-<Presentation />
-<Arguments />
-<Reviews />
-<GetStarted />
+<main>
+  <Presentation />
+  <Arguments />
+  <Reviews />
+  <GetStarted />
+</main>
 <Footer />

@@ -80,7 +80,6 @@
 
         p {
           width: 100%;
-          line-height: 25px;
           box-sizing: border-box;
           padding: 0 6vw;
         }

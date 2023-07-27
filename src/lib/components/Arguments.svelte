@@ -8,7 +8,7 @@
   </div>
   <ol>
     <li>
-      <h4><span>01</span> Track company-wide progress</h4>
+      <h3><span>01</span> Track company-wide progress</h3>
       <p>
         See how your day-to-day tasks fit into the wider vision. Go from
         tracking progress at the milestone level all the way done to the
@@ -16,7 +16,7 @@
       </p>
     </li>
     <li>
-      <h4><span>02</span> Advanced built-in reports</h4>
+      <h3><span>02</span> Advanced built-in reports</h3>
       <p>
         Set internal delivery estimates and track progress toward company goals.
         Our customisable dashboard helps you build out the reports you need to
@@ -24,7 +24,7 @@
       </p>
     </li>
     <li>
-      <h4><span>03</span> Everything you need in one place</h4>
+      <h3><span>03</span> Everything you need in one place</h3>
       <p>
         Stop jumping from one service to another to communicate, store files,
         track tasks and share documents. Manage offers an all-in-one team
@@ -45,7 +45,6 @@
     p {
       margin: 15px 0 15px;
       width: 41ch;
-      line-height: 25px;
     }
 
     .text-container {
@@ -59,7 +58,7 @@
       list-style-type: none;
       padding: 0;
 
-      h4 span {
+      h3 span {
         background-color: var(--Bright-Red);
         color: var(--Very-Pale-Red);
         padding: 11px 25px 10px 25px;
@@ -100,7 +99,7 @@
       }
 
       ol {
-        h4 {
+        h3 {
           background-color: var(--Very-Pale-Red);
           text-align: left;
           padding: 10px 0px 10px 0px;

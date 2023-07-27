@@ -40,11 +40,11 @@
 <section>
   <h2>What they've said</h2>
 
-  <ul class="reviews">
+  <ul class="reviews" tabindex="0">
     <li>
       <Cards>
         <img src={anisha} alt="anisha's profil picture" />
-        <h4>Anisha Li</h4>
+        <h3>Anisha Li</h3>
         <p>
           “Manage has supercharged our team’s workflow. The ability to maintain
           visibility on larger milestones at all times keeps everyone
@@ -55,7 +55,7 @@
     <li>
       <Cards>
         <img src={ali} alt="ali's profil picture" />
-        <h4>Ali Bravo</h4>
+        <h3>Ali Bravo</h3>
         <p>
           “We have been able to cancel so many other subscriptions since using
           Manage. There is no more cross-channel confusion and everyone is much
@@ -66,7 +66,7 @@
     <li>
       <Cards>
         <img src={richard} alt="richard's profil picture" />
-        <h4>Richard Watts</h4>
+        <h3>Richard Watts</h3>
         <p>
           “Manage allows us to provide structure and process. It keeps us
           organized and focused. I can’t stop recommending them to everyone I
@@ -77,7 +77,7 @@
     <li>
       <Cards>
         <img src={shanai} alt="shanai's profil picture" />
-        <h4>Shanai Gough</h4>
+        <h3>Shanai Gough</h3>
         <p>
           “Their software allows us to track, manage and collaborate on our
           projects from anywhere. It keeps the whole team in-sync without being
@@ -125,7 +125,7 @@
     margin-top: 5rem;
 
     h2,
-    h4,
+    h3,
     p {
       text-align: center;
     }
@@ -149,7 +149,7 @@
       li {
         overflow: visible;
 
-        h4,
+        h3,
         p {
           position: relative;
           top: -1rem;
