@@ -50,7 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 4rem;
 
     button.hamburger {
       background: none;
@@ -66,6 +66,7 @@
         text-decoration: none;
         color: var(--Dark-Blue);
         font-weight: 500;
+        font-size: .9rem;
       }
 
       a:hover {

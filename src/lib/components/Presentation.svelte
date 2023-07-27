@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: normal;
-    margin-top: 10vh;
+    margin-top: 5rem;
 
     div {
       width: 50%;
@@ -39,11 +39,11 @@
 
       p {
         width: 65%;
-        margin: 15px 0;
+        margin: 2rem 0;
       }
 
       .get-started {
-        margin-top: 15px;
+        margin-top: .5rem;
       }
     }
 

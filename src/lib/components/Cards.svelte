@@ -10,7 +10,7 @@
 <style lang="scss">
   div.card {
     background-color: var(--Vary-Light-Gray);
-    height: 9rem;
+    height: 12rem;
     padding: 2rem;
     width: 36vw;
     min-width: 17rem;
@@ -18,7 +18,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  
+  }  
 </style>

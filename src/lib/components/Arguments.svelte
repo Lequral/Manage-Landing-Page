@@ -44,13 +44,13 @@
 
     p {
       margin: 15px 0 15px;
-      max-width: 88vw;
+      width: 41ch;
       line-height: 25px;
     }
 
     .text-container {
       p {
-        width: 21vw;
+        width: 30ch;
         margin: 30px 0;
       }
     }
@@ -73,7 +73,7 @@
       }
 
       li {
-        margin-bottom: 40px;
+        margin-bottom: 5rem;
       }
     }
 

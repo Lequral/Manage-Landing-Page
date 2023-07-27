@@ -67,6 +67,10 @@ span {
   font-size: 1rem;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: 1100px) {
   body > div {
     position: relative; // to fix overflow-x on phone

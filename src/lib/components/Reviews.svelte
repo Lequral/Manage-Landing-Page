@@ -121,6 +121,7 @@
 
     p {
       margin-top: 2vh;
+      width: 42ch;
     }
 
     ul {
@@ -137,10 +138,15 @@
       li {
         overflow: visible;
 
+        h4, p {
+          position: relative;
+          top: -1rem;
+        }
+
         img {
           width: 4.1rem;
           position: relative;
-          top: -3rem;
+          top: -4rem;
           margin-bottom: -1.5rem;
         }
       }

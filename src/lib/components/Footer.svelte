@@ -1,5 +1,5 @@
 <script>
-  import {base} from "$app/paths";
+  import { base } from "$app/paths";
 
   import logoManager from "@assets/logo-footer.svg";
 
@@ -8,6 +8,8 @@
   import twitter from "@assets/icon-twitter.svg";
   import pinterest from "@assets/icon-pinterest.svg";
   import instagram from "@assets/icon-instagram.svg";
+
+  var submitted = false;
 </script>
 
 <footer>
@@ -39,7 +41,7 @@
     </div>
 
     <div class="newsletter">
-      <form class="newsletter">
+      <form class="newsletter" class:submitted>
         <input
           type="email"
           name="mail"
@@ -47,7 +49,7 @@
           placeholder="Updates in your inbox…"
           required
         />
-        <input type="submit" value="Go" />
+        <input type="submit" value="Go" on:click={() => (submitted = true)} />
         <p class="error">Please insert a valid email</p>
       </form>
     </div>
@@ -139,7 +141,7 @@
         margin-right: 0.5rem;
       }
 
-      input#mail:invalid {
+      form.newsletter.submitted:invalid input#mail {
         border: 0.1rem solid red;
         color: red;
       }
@@ -163,7 +165,7 @@
         text-align: left;
       }
 
-      form.newsletter:invalid p.error {
+      form.newsletter.submitted:invalid p.error {
         visibility: visible;
       }
 

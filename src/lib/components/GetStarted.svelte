@@ -6,7 +6,7 @@
 <style lang="scss">
   section {
     width: 100vw;
-    margin-top: 10rem;
+    margin-top: 11rem;
     background: var(--Bright-Red)
       url(@assets/bg-simplify-section-desktop.svg)
       no-repeat left 17vw bottom 0 / cover;

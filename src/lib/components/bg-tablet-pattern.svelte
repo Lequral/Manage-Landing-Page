@@ -37,8 +37,8 @@
     }
 
     #two {
-      top: 1117px;
-      left: -24vw;
+      top: 1140px;
+      left: -34vw;
     }
   }
   @media screen and (max-width: 1100px) {
