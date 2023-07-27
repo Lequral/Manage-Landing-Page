@@ -38,7 +38,7 @@
       justify-content: center;
 
       p {
-        width: 65%;
+        width: 31ch;
         margin: 2rem 0;
       }
 
